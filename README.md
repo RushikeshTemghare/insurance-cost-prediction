@@ -86,20 +86,6 @@ The model performance was evaluated using:
 
 ---
 
-# 📂 Repository Structure
-
-```
-insurance-cost-prediction/
-│
-├── insurance_linear_regression.ipynb
-├── insurance.csv
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
----
-
 # 💡 Skills Demonstrated
 
 - Data Cleaning
