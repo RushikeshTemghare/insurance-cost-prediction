@@ -142,8 +142,8 @@ Through this project, I gained practical experience in:
 
 **Rushikesh Temghare**
 
-🎓 MSc Data Science & Artificial Intelligence  
-📍 Bournemouth University  
+MSc Data Science & Artificial Intelligence  
+Bournemouth University  
 
 ---
 
