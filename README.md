@@ -1,75 +1,92 @@
-# Insurance Cost Prediction using Linear Regression
+# 💰 Insurance Cost Prediction using Linear Regression
 
-## Project Overview
+Predicting **medical insurance charges** using a **Linear Regression** model built with **Python** and **Scikit-learn**.
 
-This project demonstrates how to build a supervised machine learning model to predict medical insurance charges using **Linear Regression**.
-
-The project covers the complete machine learning workflow, including data preprocessing, feature encoding, model training, prediction, and evaluation using Python and Scikit-learn.
-
----
-
-## Problem Statement
-
-Medical insurance costs are influenced by several factors such as age, BMI, smoking habits, number of children, sex, and region.
-
-The objective of this project is to predict insurance charges based on these customer attributes using a Linear Regression model.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## Dataset
+# 📖 Project Overview
 
-The dataset contains the following features:
+This project demonstrates the implementation of a **supervised machine learning** model to predict **medical insurance charges** using **Linear Regression**.
+
+The workflow follows a complete machine learning pipeline, including data preprocessing, feature encoding, model training, prediction, and performance evaluation using Python and Scikit-learn.
+
+---
+
+# 🎯 Problem Statement
+
+Medical insurance costs are influenced by several factors, including:
+
+- Age
+- Body Mass Index (BMI)
+- Smoking status
+- Number of children
+- Gender
+- Residential region
+
+The objective of this project is to build a regression model capable of predicting an individual's medical insurance charges based on these features.
+
+---
+
+# 📊 Dataset
+
+The dataset consists of customer information and insurance charges.
 
 | Feature | Description |
 |---------|-------------|
-| age | Age of the customer |
-| sex | Gender of the customer |
-| bmi | Body Mass Index |
-| children | Number of dependents |
-| smoker | Smoking status |
-| region | Residential region |
-| charges | Medical insurance charges (Target Variable) |
+| **age** | Age of the customer |
+| **sex** | Gender of the customer |
+| **bmi** | Body Mass Index |
+| **children** | Number of dependents |
+| **smoker** | Smoking status |
+| **region** | Residential region |
+| **charges** | Medical insurance charges *(Target Variable)* |
 
 ---
 
-## Technologies Used
+# 🛠️ Technologies Used
 
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+- 🐍 Python
+- 📓 Jupyter Notebook
+- 🐼 Pandas
+- 🔢 NumPy
+- 📊 Matplotlib
+- 📈 Seaborn
+- 🤖 Scikit-learn
 
 ---
 
-## Machine Learning Workflow
+# ⚙️ Machine Learning Workflow
 
-- Import libraries
-- Load dataset
+- Import Libraries
+- Load Dataset
 - Exploratory Data Analysis (EDA)
-- Data preprocessing
-- Label Encoding / One-Hot Encoding
-- Feature selection
+- Data Preprocessing
+- Feature Encoding
+- Feature Selection
 - Train-Test Split
-- Linear Regression model training
-- Model prediction
-- Model evaluation
+- Linear Regression Model Training
+- Model Prediction
+- Model Evaluation
 
 ---
 
-## Evaluation Metrics
+# 📈 Model Evaluation
 
-The model performance is evaluated using:
+The model performance was evaluated using:
 
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
-- R² Score
+- R² Score (Coefficient of Determination)
 
 ---
 
-## Repository Structure
+# 📂 Repository Structure
 
 ```
 insurance-cost-prediction/
@@ -83,13 +100,13 @@ insurance-cost-prediction/
 
 ---
 
-## Skills Demonstrated
+# 💡 Skills Demonstrated
 
 - Data Cleaning
 - Data Preprocessing
+- Exploratory Data Analysis (EDA)
 - Feature Engineering
 - Feature Encoding
-- Exploratory Data Analysis
 - Supervised Machine Learning
 - Linear Regression
 - Model Evaluation
@@ -97,7 +114,9 @@ insurance-cost-prediction/
 
 ---
 
-## Future Improvements
+# 🚀 Future Improvements
+
+Possible enhancements for this project include:
 
 - Ridge Regression
 - Lasso Regression
@@ -109,6 +128,29 @@ insurance-cost-prediction/
 
 ---
 
-## Acknowledgement
+# 📚 Learning Outcome
 
-This project was completed as part of my machine learning learning journey and has been organised and documented as a portfolio project to demonstrate practical implementation of supervised machine learning concepts.
+Through this project, I gained practical experience in:
+
+- Building a supervised machine learning workflow
+- Preparing real-world datasets for modelling
+- Training and evaluating regression models
+- Applying Linear Regression using Scikit-learn
+- Interpreting model performance metrics
+
+---
+
+# 👤 Author
+
+**Rushikesh Temghare**
+
+🎓 MSc Data Science & Artificial Intelligence  
+📍 Bournemouth University  
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
