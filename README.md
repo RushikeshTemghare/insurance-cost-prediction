@@ -78,11 +78,23 @@ The dataset consists of customer information and insurance charges.
 
 # 📈 Model Evaluation
 
-The model performance was evaluated using:
+The trained Linear Regression model was evaluated using the **R² Score (Coefficient of Determination)** to measure how well it predicts medical insurance charges.
 
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-- R² Score (Coefficient of Determination)
+---
+
+# 📊 Results
+
+The model achieved the following performance on the test dataset:
+
+| Metric | Value |
+|---------|------:|
+| **R² Score** | **0.798** |
+
+### Key Findings
+
+- The model explains approximately **79.8%** of the variance in medical insurance charges.
+- This indicates that the Linear Regression model captures the relationship between the input features and insurance charges reasonably well.
+- The notebook also includes predictions on unseen test data for model evaluation.
 
 ---
 
