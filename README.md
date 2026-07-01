@@ -1,4 +1,4 @@
-# 💰 Insurance Cost Prediction using Linear Regression
+# Insurance Cost Prediction using Linear Regression
 
 Predicting **medical insurance charges** using a **Linear Regression** model built with **Python** and **Scikit-learn**.
 
